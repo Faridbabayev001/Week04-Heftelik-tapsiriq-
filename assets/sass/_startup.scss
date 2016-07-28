@@ -1,0 +1,44 @@
+#startup{
+	height: 656px;
+	$font-railway: Railway, sans-serif;
+	
+	.container{
+		height:656px;
+		border:1px solid black;
+	}
+	// xettler
+	.col-md-7{
+		border:1px solid black;
+	}
+	.col-md-5{
+		border:1px solid black;
+	}
+	.col-md-1{
+		border:1px solid black;
+	}
+
+	// sol hisse
+	
+	h1{
+		text-transform:uppercase;
+		font-size:30px;
+		font-family: $font-railway;
+		color:#23282f;
+		padding-top:100px;
+	}
+	p{
+		text-transform:uppercase;
+		font-size:18px;
+		color:#3e4146;
+	}
+	span{
+		font-size:14px;
+
+	}
+	.image_field{
+		height:301px;
+		background:#8d8d8d;
+		margin-left: 15px;
+	}
+	
+}
