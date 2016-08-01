@@ -1,0 +1,124 @@
+#features{
+	min-height: 1376px;
+	background: #ffffff;
+	.bottom_line{
+		border-bottom: 2px solid #e5eef0;
+		height: 202px;
+	}
+	.border{
+		border-bottom: 2px solid #e6edee;
+		height: 210px;
+		button{
+			margin-left: 14%;
+		}
+	}
+	.box{
+		border: 2px solid #e6edee;
+		width: 262px;
+		height: 422px;
+		margin: 34px 15px 0px 15px;
+		padding: 0;
+	}
+	.box:hover{
+		box-shadow: 0px 0px 30px;
+	}
+	.box .border:first-child{
+		height:65px;
+	}
+	.box .border:nth-child(2){
+		height:58px;
+	}
+	.box .border:last-child{
+		height:297px;
+	}
+
+	button{
+		width: 161px;
+		height: 38px;;
+		border-radius: 21px;
+		background: #29c2e1;
+		border: 0px;
+		margin-top: 65px;
+		text-transform: uppercase;
+	}
+	.qutular{
+		width: 68px;
+		height: 68px;
+		background: #e5eef0;
+	}
+	img{
+		padding-top: 19px;
+	}
+	.qutular:hover{
+		background: #f7941d;
+	}
+	.birinci_setr{
+		 padding-top: 53px;
+	}
+	.ikinci_setr{
+		margin-top: 67px;
+	}
+	h1{
+		font-size: 30px;
+		text-transform: uppercase;
+		padding-top: 102px;
+		padding-left: 15px;
+	}
+	h2{
+		font-size: 14.5px;
+		text-transform: uppercase;
+		line-height: 0px;
+		color: #ffffff;;
+	}
+	h3{
+		font-size: 20px;
+		margin-top: -3px;
+	}
+	h4{
+		font-size: 20px;
+		margin: 36px 0px 0px 67px;
+		text-transform: uppercase;
+	}
+	h5{
+		font-size: 18px;
+		margin: 26px 0px 0px 31px;
+	}
+	h6{
+		font-size: 15px;
+		text-align: center;
+		line-height: 29px;
+    	padding-top: 44px;
+	}
+	p{
+		font-size: 18px;
+		text-transform: uppercase;
+		padding-left: 15px;
+
+	}
+	.box span{
+		color: #f7941d;
+	}
+	.bir{
+			width:0px;
+			height:0px;
+			border-left:80px solid transparent;
+			border-right:80px solid transparent;
+			border-bottom:130px solid #f69b37;
+			position:absolute;
+			top: 70px;
+			left: 86.3%;;
+		}
+	.iki{
+			width:0px;
+			height:0px;
+			border-left:69px solid transparent;
+			border-right:69px solid transparent;
+			border-bottom:89px solid #29c2e1;
+			position:absolute;
+			top: 111px;
+			left: 80%;
+			z-index:1;
+	}
+
+
+}

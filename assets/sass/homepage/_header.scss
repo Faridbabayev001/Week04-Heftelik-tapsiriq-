@@ -1,5 +1,5 @@
 #header{
-	height: 876px;
+	min-height: 876px;
 	$text-color: #92a7ab;
 	$font-text: Tahoma;
 
@@ -39,31 +39,31 @@
 
 	.menu{
 		height: 76px;
-		background: #ffffff;
-	
 		nav{
-			background:#ffffff;
-			height:76px;
-
-			img{
-				padding-top:21px;
-			}
-			a{
-				margin-top:32px;
-				height:25px;
-				padding:0px 10px 0px 10px;
-			}
-			li:last-child a{
-			margin-top: 19px;
-    		height: 38px;
-    		line-height: 36px;
-    		border-radius: 25%;
-    		color:white;
-    		background:#29c2e1;
-    		margin-right: 15px;
-				}
-			
+			height: 76px;
+			background: #ffffff;
+			// elac buna qalib :)
+			border: 1px solid white;
+		a{
+			padding-top: 10px;
+			border-radius: 20px;
+			text-transform: uppercase;
+			height: 38px;
+			margin-top: 8px;
 		}
+			li{
+				a{
+					margin-top: 18px;
+					border-radius: 20px;
+					text-transform: uppercase;
+				}
+				 a:hover{
+				background: #29c2e1;
+				color: #ffffff;
+				}
+			}
+		}
+
 
 
 
@@ -71,7 +71,8 @@
 
 	.image{
 		height: 750px;
-		background: #8d8d8d;
+		background: url("../../img/background.png");
+		background-size: cover;
 		color: #ffffff;
 		p{
 			font-size:15px;
@@ -85,7 +86,7 @@
 			padding-top:343px;
 			padding-left: 15px;
 			text-transform:uppercase;
-		
+
 		}
 	}
 
